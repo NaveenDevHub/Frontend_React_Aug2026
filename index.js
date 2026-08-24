@@ -267,12 +267,10 @@
 //     grade = "E";
 // }
 
-
 // console.log(grade);
 
-
-//              013456789             
-// let userName = "Siva Kumar";   // length = 10 index = length - 1 = 0 to 9 
+//              013456789
+// let userName = "Siva Kumar";   // length = 10 index = length - 1 = 0 to 9
 
 // userName.charAt(0);
 // console.log(userName.charAt(0));
@@ -287,9 +285,7 @@
 // userName = userName.repeat(5);
 // console.log(userName);
 
-
-
-// let userName = " Siva Kumar";  
+// let userName = " Siva Kumar";
 
 // let result = userName.startsWith(" ");
 
@@ -300,7 +296,7 @@
 // }
 
 // console.log(result);
-// let userName = "Siva Kumar ";  
+// let userName = "Siva Kumar ";
 
 // let result = userName.endsWith(" ");
 
@@ -312,7 +308,7 @@
 
 // console.log(result);
 
-// let userName = "Siva$Kumar"; 
+// let userName = "Siva$Kumar";
 
 // let result = userName.includes("$");
 
@@ -346,7 +342,6 @@
 // let firstName = fullName.slice(0, fullName.indexOf(" "));
 // let lastName = fullName.slice(fullName.indexOf(" ") + 1);
 
-
 // console.log(firstName);
 // console.log(lastName);
 // console.log(firstChar);
@@ -354,12 +349,11 @@
 
 // email - dinesh123@gmail.com
 
-// Enter the Email 
+// Enter the Email
 
-// submit 
+// submit
 
 // your username is dinesh123
-
 
 //let username = window.prompt("Enter your username: ");
 
@@ -378,8 +372,6 @@
 
 // console.log(username);
 
-
-
 const temp = 200;
 
 // if(temp > 0) {
@@ -389,7 +381,7 @@ const temp = 200;
 // } else {
 //      console.log("The weather is bad");
 // }
-// true 
+// true
 // 200  > 0    20 < 30 - true
 // if(temp > 0 && temp <= 30) {
 //    console.log("The weather is good");
@@ -403,8 +395,6 @@ const temp = 200;
 // } else {
 //      console.log("The weather is good");
 // }
-
-
 
 // const isSunny = true;
 
@@ -423,8 +413,6 @@ const temp = 200;
 //  console.log("That is NOT PI");
 // }
 
-
-
 //TRUE
 // const PI = 3.14;
 
@@ -433,7 +421,6 @@ const temp = 200;
 // } else {
 //  console.log("That is NOT PI");
 // }
-
 
 // FALSE
 // const PI = "3.14";
@@ -444,7 +431,6 @@ const temp = 200;
 //  console.log("That is NOT PI");
 // }
 
-
 // FALSE
 // const PI = 3.14;
 
@@ -454,15 +440,14 @@ const temp = 200;
 //  console.log("That is NOT PI");
 // }
 
-    // const PI = "3.14";
-    // if(PI !== 3.14) {
-    //    console.log("That is PI");
-    // } else {
-    //  console.log("That is NOT PI");
-    // }
+// const PI = "3.14";
+// if(PI !== 3.14) {
+//    console.log("That is PI");
+// } else {
+//  console.log("That is NOT PI");
+// }
 
 // let username = "Siva";
-
 
 // while(username === "") {
 //     console.log("You dont enter your name");
@@ -472,24 +457,82 @@ const temp = 200;
 
 // let i = 1;
 
-      //          false(false-stop) 
-     // 1st   2nd(true) 4th           
+//          false(false-stop)
+// 1st   2nd(true) 4th
 // for(let i = 1; i <= 10; i++) {
-//     // 3rd - execute the code indise the curly braces 
+//     // 3rd - execute the code indise the curly braces
 //      console.log(i);
 // }
 
-
-
-      //          false(false-stop) 
-     // 1st   2nd(true) 4th           
+//          false(false-stop)
+// 1st   2nd(true) 4th
 // for(let i = 10; i > 0; i--) {
-//     // 3rd - execute the code indise the curly braces 
+//     // 3rd - execute the code indise the curly braces
 //      console.log(i + "*****");
 //      console.log(i + "*****");
 // }
 
+//      1st   2st(true)       8th
+//  for(let i = 0; i < 5;       i++) {  // outer loop
+//     // 3rd step
+//      console.log(`The current value is : ${i}`);
+//      //     4th        5th(true)    7th
+//       for(let j = 0; j < 5;        j++) {
+//           // 6th step
+//           console.log(`j: ${j}`);
+//       }
+
+//       console.log("---------------------------");
+//  }
+
+// 0 x 0 = 0
+// 0 x 1 = 0
+
+//  for(let i = 0; i < 99;       i++) {  // outer loop
+//     // 3rd step
+//      console.log(`The current value is of i : ${i}`);
+//      //     4th        5th(true)    7th
+//       for(let j = 0; j < 99;        j++) {
+//           // 6th step
+//           console.log(`${i} x ${j} = ${i * j}`);
+//       }
+
+//       console.log("---------------------------");
+//  }
+
+// const storeInventory = [
+//     // 0 - i 
+//     // j = 0           j = 1          j = 2
+//   ["Item: Computer", "Price: 20000", "Inventory: 10"],
+
+//   // 1
+//   ["Item: IPhone17", "Price: 50000", "Inventory: 5"],
+
+//   // 2
+//   ["Item: Earphones", "Price: 5000", "Inventory: 15"]
+// ];
+
+// //     1step             2sd step           3
+// for(let i = 0; i < storeInventory.length; i++) {
+
+//     // 3rd step 
+//     if(i > 0) {
+//         console.log("-------------");
+//     }
+//     //    4th j = 0    //             0
+//     for(let j = 0; j < storeInventory[i].length; j++) {
+//         //                       2  2
+//       console.log(storeInventory[i][j]);
+//     }
+
+// }
 
 
 
-
+//  0 = i,  j = 0, 1, 2, 3, 4
+//  1 = i,  j = 0, 1, 2, 3, 4
+//
+//
+//
+//
+//

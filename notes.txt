@@ -276,8 +276,16 @@ types
 while loop - entry control 
 do while loop  - exit control loop 
 for loop 
+
+we will see this in array concept 
 forEach loop 
-Nexted Loops 
+Nexted Loops
+
+
+
+
+
+
 
 
 ******
