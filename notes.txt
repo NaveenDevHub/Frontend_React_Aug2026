@@ -320,6 +320,27 @@ y
    *  *  *      
 *  *  *  * 
 
+Function - a section of reusable code.
+Declare code once, use it whenever we want 
+call the function to execute that code
+
+Return keyword 
+
+
+Varaible scope - where a varibale is recogonized and accessible (local or global)
+
+Arrays 
+
+Spread operator 
+Rest parameter 
+
+typescript - oops based language 
+
+Callbacks 
+
+
+
+
 
 
 

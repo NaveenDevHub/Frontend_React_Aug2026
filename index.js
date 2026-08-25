@@ -372,7 +372,7 @@
 
 // console.log(username);
 
-const temp = 200;
+// const temp = 200;
 
 // if(temp > 0) {
 //    console.log("The weather is good");
@@ -501,7 +501,7 @@ const temp = 200;
 //  }
 
 // const storeInventory = [
-//     // 0 - i 
+//     // 0 - i
 //     // j = 0           j = 1          j = 2
 //   ["Item: Computer", "Price: 20000", "Inventory: 10"],
 
@@ -515,7 +515,7 @@ const temp = 200;
 // //     1step             2sd step           3
 // for(let i = 0; i < storeInventory.length; i++) {
 
-//     // 3rd step 
+//     // 3rd step
 //     if(i > 0) {
 //         console.log("-------------");
 //     }
@@ -527,12 +527,85 @@ const temp = 200;
 
 // }
 
-
-
 //  0 = i,  j = 0, 1, 2, 3, 4
 //  1 = i,  j = 0, 1, 2, 3, 4
-//
-//
-//
-//
-//
+
+//                   parameters
+// function happyBirthday(username, age) {
+//   console.log("Happy Birthday to you");
+//   console.log("Happy Birthday to you");
+//   console.log(`Happy Birthday dear ${username}`);
+//   console.log("Happy Birthday to you");
+//   console.log(`you are ${age} years old`);
+
+//    XPathResult;
+// }
+
+// //                arguments
+// happyBirthday("Siva kumar", 25);
+// happyBirthday("Ganesh", 26);
+
+
+
+// function boolean add(x , y) {
+//     let result = true or false;
+//     return result;
+// }
+// function add(x , y) {
+//     return x + y;
+// }
+// function mul(x , y) {
+//     return x * y;
+// }
+
+// function isEven(number) {
+//     // if(number % 2 === 0) {
+//     //      return true;
+//     // } else {
+//     //     return false;
+//     // }
+
+//     return number % 2 === 0 ? true : false;
+// }
+
+// function isValidEmail(email) {
+//     if(email.includes("@")) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// add(20, 30) = 50
+
+// let addAnswer = add(20, 30);
+// let mulAnswer = mul(20, 30);
+// let evenAnswer = isEven(11);
+// let emailCheckAnswer = isValidEmail("ganesh989@gmail.com");
+
+// console.log(addAnswer);
+// console.log(mulAnswer);
+// console.log(evenAnswer);
+// console.log(emailCheckAnswer);
+
+// return result
+
+// let x = 1;
+// let x = 2;
+//  let x = 100;
+// function func1() {
+//     // let x = 3;
+//     console.log(x);
+// }
+// function func2() {
+//     // let y = 1;
+//     // console.log(y);
+//     // let x = 4;
+//     console.log(x);
+// }
+
+// func1();
+// func2();
+
+
+
