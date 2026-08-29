@@ -4,6 +4,8 @@
 // console.writeLine();
 // print("", 1, true or false, 0.4, '')
 
+// const { use } = require("react");
+
 // console.log("Welcome to javascript world");
 // console.log("I lkie js");
 
@@ -608,4 +610,114 @@
 // func2();
 
 
+//             0         1          2        
+// let fruits = ["apple", "orange", "banana"];
+
+//      i = 2                    2 > 0  4th -1
+// for(let i = fruits.length - 1; i >= 0; i--) {
+
+//     // 3rd step       2 1  0
+//     console.log(fruits[i]);
+// }
+
+// fruits.sort().reverse();
+
+// for(let fruit of fruits) {
+//     console.log(fruit);
+// }
+
+// fruits.push("coconut");
+// fruits.pop("coconut");
+// fruits.unshift("coconut");
+// fruits.shift();
+
+// let numOfFruits = fruits.length;
+// let index = fruits.indexOf("apple");
+// let index = fruits.indexOf("banana");
+// console.log(numOfFruits);
+// console.log(index);
+// console.log(fruits);
+
+
+
+// fruits[2] = "coconut";
+
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+// let maximum = Math.max(...numbers);
+// console.log(...numbers);
+// console.log(numbers);
+// console.log(maximum);
+
+
+// let username = "Ganesh Kumar";
+
+
+// let fruits = ["apple", "orange", "banana"];
+// let numOfFruits = [...fruits]
+
+
+// // let letters = [...username].join("");
+// console.log(numOfFruits);
+
+
+
+// let fruits = ["apple", "orange", "banana"];
+// let veggies = ["carrits", "oninon", "tomato"];
+
+
+
+// let foods = [...fruits, ...veggies, "eggs", "milk"];
+
+// console.log(foods);
+// let fruits = ["apple", "orange", ""];
+
+// function openKitchen(...foods) {
+//     console.log(...foods);
+// }
+
+// function getFood(...foods) {
+//     return foods;
+// }
+
+// const food1 = "veg rice"; 
+// const food2 =  "chicken rice";
+// const food3 =  "sambar rice";
+// const food4 =  "dosa";
+// const food5 = "idly";
+
+// openKitchen(food1, food2, food3, food4, food5);
+
+// const foods = getFood(food1, food2, food3, food4, food5);
+
+// console.log(foods);
+
+
+// function sum(...numbers) {
+//     let result = 0;
+
+//     for(let number of numbers) {
+//         result += number;
+//     }
+
+//     return result;
+// }
+
+// const total = sum(1, 3, 4, 5, 6, 7);
+
+// console.log(`your total is ₹${total}`);
+
+// find the average of the number 
+
+function combineString(...strings) {
+    return strings.join(" ");
+}
+
+const fullName = combineString("Ms", "maria", "margrette", "101");
+
+console.log(fullName);
 

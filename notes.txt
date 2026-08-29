@@ -329,10 +329,63 @@ Return keyword
 
 Varaible scope - where a varibale is recogonized and accessible (local or global)
 
-Arrays 
+Arrays - a variable like structure that can hold can hold more than 1 values.
+
+
+spread operator = ... allows a iterable such as an array or string to be expand into seprate elements 
+(upacks the elements)
+
+Rest parameter 
+
+
+[
+    {
+        empCode: 7448;
+        empName: "ueh"
+    },
+    {},
+    {},
+    {}
+    
+]
+
 
 Spread operator 
-Rest parameter 
+
+shoallow copy - using spread operator - different data structure but it contians idetiacal values 
+
+Rest parameter - allow a function work with a variable number of argument by bundling them into an array. 
+
+
+spread - expand(unpack) an array into sperate element 
+rest - bundle(pack) seperate element into an array 
+
+
+
+function addtion(...rest) {
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 typescript - oops based language 
 
