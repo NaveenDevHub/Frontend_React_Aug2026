@@ -366,10 +366,21 @@ function addtion(...rest) {
 
 } 
 
+****** important *******
+Callbacks -  a function that is passes as an argument to another function.
 
+used to handle the asynchrounos operations
 
+Reading a file 
+Network requests 
+Interacting with database 
 
+Hey, when you are done, call this next 
+****** important *******
 
+create call for to area of cirlce 
+create a callback for multiplication 
+create callback for to find squareroot  
 
 
 

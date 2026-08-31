@@ -547,8 +547,6 @@
 // happyBirthday("Siva kumar", 25);
 // happyBirthday("Ganesh", 26);
 
-
-
 // function boolean add(x , y) {
 //     let result = true or false;
 //     return result;
@@ -609,8 +607,7 @@
 // func1();
 // func2();
 
-
-//             0         1          2        
+//             0         1          2
 // let fruits = ["apple", "orange", "banana"];
 
 //      i = 2                    2 > 0  4th -1
@@ -638,14 +635,11 @@
 // console.log(index);
 // console.log(fruits);
 
-
-
 // fruits[2] = "coconut";
 
 // console.log(fruits[0]);
 // console.log(fruits[1]);
 // console.log(fruits[2]);
-
 
 // let numbers = [1, 2, 3, 4, 5, 6];
 // let maximum = Math.max(...numbers);
@@ -653,23 +647,16 @@
 // console.log(numbers);
 // console.log(maximum);
 
-
 // let username = "Ganesh Kumar";
-
 
 // let fruits = ["apple", "orange", "banana"];
 // let numOfFruits = [...fruits]
 
-
 // // let letters = [...username].join("");
 // console.log(numOfFruits);
 
-
-
 // let fruits = ["apple", "orange", "banana"];
 // let veggies = ["carrits", "oninon", "tomato"];
-
-
 
 // let foods = [...fruits, ...veggies, "eggs", "milk"];
 
@@ -684,7 +671,7 @@
 //     return foods;
 // }
 
-// const food1 = "veg rice"; 
+// const food1 = "veg rice";
 // const food2 =  "chicken rice";
 // const food3 =  "sambar rice";
 // const food4 =  "dosa";
@@ -695,7 +682,6 @@
 // const foods = getFood(food1, food2, food3, food4, food5);
 
 // console.log(foods);
-
 
 // function sum(...numbers) {
 //     let result = 0;
@@ -711,13 +697,49 @@
 
 // console.log(`your total is ₹${total}`);
 
-// find the average of the number 
+// find the average of the number
 
-function combineString(...strings) {
-    return strings.join(" ");
+// function combineString(...strings) {
+//     return strings.join(" ");
+// }
+
+// const fullName = combineString("Ms", "maria", "margrette", "101");
+
+// console.log(fullName);
+
+// hello(wait);
+
+
+// // 5seconds
+// function hello(callback) {
+//     console.log("Hello siva");
+//     callback();
+// }
+
+// function leave() {
+//     console.log("Leave siva");
+// }
+
+// function wait() {
+//    console.log("Wait siva");
+// }
+
+// function goodBye() {
+//   console.log("Good by siva");
+// }
+
+
+sum(displayWebpage, 4, 2); 
+
+function sum(callback, x, y) {
+    let result = x + y;
+    callback(result);
+}
+//                         6
+function displayConsole(result) {
+    console.log(result);
 }
 
-const fullName = combineString("Ms", "maria", "margrette", "101");
-
-console.log(fullName);
-
+function displayWebpage(result) {
+     document.getElementById("myH1").textContent = result;
+}
